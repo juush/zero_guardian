@@ -1,2 +1,4 @@
 /.env
-/private/embed_code.js
+/guilds/
+/node_modules/
+/private/
