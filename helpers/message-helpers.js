@@ -71,9 +71,41 @@ const safetyMsg = (guildName) => {
 }
 
 
+const updateMessage = () => {
+    return new MessageEmbed()
+        .setColor("#A966FF")
+        .setTitle(`⚠ TURN OFF DMs ⚠`)
+        .setDescription(`We care about you and your safety!`)
+        .addFields(
+            {
+                name: "New in update 0.1.1-b!",
+                value: "Thank you so much for choose ZERØ Guardian! This is still a beta version so please be patient" +
+                    " with us as we work out the kinks! We are working hard to make this the best experience possible!" +
+                    " If you have any questions or concerns please reach out to us on our [Discord](https://discord.gg/JB2JYzDcPH)!"
+            },
+            {
+                name: "What's new?",
+                value: ""
+            },
+            {
+                name: "What's next?",
+                value: "We've added a new command to help you get started! You can now use `/help` to get a list of" +
+                    " commands and what they do! We've also added a new command to help you get started! You can now" +
+                    " use `/help` to get a list of commands and what they do! We are also working on a new feature" +
+                    " that will allow you to send us feedback! It will be available in the next major update! Stay tuned!"
+            },
+            {
+                name: "Feedback!",
+                value: "For now, if you have any feedback or suggestions feel free to reach out to me on Discord at" +
+                    "@Juuce#0001!"
+            }
 
+        )
+        .setImage('https://cdn.discordapp.com/attachments/884674949623734342/973297882511843388/unknown.png?size=4096')
+}
 
 module.exports = {
     helpMsg,
-    safetyMsg
+    safetyMsg,
+    updateMessage
 }
