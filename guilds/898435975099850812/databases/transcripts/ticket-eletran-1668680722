@@ -1,0 +1,18 @@
+Lynx Guardian#2982ID#970760846294802452: 
+Eletran#3333ID#391314756734156801: Hey <@897725766098354186> on the accounts transactions page I can't use the arrow button to scroll thru the pages. I'm using brave browser which should be the same as chrome.
+donut#6634ID#897725766098354186: <@391314756734156801>  Heya eletran, on desktop? Are you seeing any console log messages
+donut#6634ID#897725766098354186: also, out of curiosity do you use the native brave wallet? or have you tried it? or just metamask
+donut#6634ID#897725766098354186: Is this for 0xf17bd44fd3f457d23671567ce0f6edfb4c7aa2bb?
+Eletran#3333ID#391314756734156801: Yes on desktop, havent had the chance to check out the native brave wallet so I use the MetaMask extension
+Eletran#3333ID#391314756734156801: That is correct
+Eletran#3333ID#391314756734156801: Oh wait sorry didnt check for console log messages ket me do that
+Eletran#3333ID#391314756734156801: I get this error message but after seeing it, it worked again
+```GET https://www.googletagmanager.com/gtag/js?id=G-LY6LZXVME7 net::ERR_BLOCKED_BY_CLIENT```
+Eletran#3333ID#391314756734156801: I see
+"Provisional headers are shown"
+when i click on the link so it might be that it tried to load from cache even tho I tried to do hard refreshes but in that case it wouldnt be on purebase.co end
+donut#6634ID#897725766098354186: Yeah, it may have been you were inbetween platform versions, I had pushed an update a couple days ago. That error is just saying your browser/adblock/etc is blocking analytics tracking, no biggie. I wonder if anyone uses the brave wallet, it's actually really difficult trying to gauge support for these things
+donut#6634ID#897725766098354186: Let me know if you come across this bug again, and see if anything interesting pops up in console
+donut#6634ID#897725766098354186: 🫶
+Eletran#3333ID#391314756734156801: Will do donut! Thanks as always!
+Lynx Guardian#2982ID#970760846294802452: We are creating a transcript, we will provide you with a ticket number shortly

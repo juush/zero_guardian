@@ -1,0 +1,50 @@
+LuckySonic#2581ID#887189746844065793: the pending one
+Juddiebands#3333ID#760342083134685204: tes I do
+Juddiebands#3333ID#760342083134685204: yes
+LuckySonic#2581ID#887189746844065793: OK, you can do that
+LuckySonic#2581ID#887189746844065793: and then submit a new one with higher gas
+LuckySonic#2581ID#887189746844065793: that's all "speeding up" really does in metamask
+LuckySonic#2581ID#887189746844065793: it's just a UI thing
+Juddiebands#3333ID#760342083134685204: okay i hit cancel
+Juddiebands#3333ID#760342083134685204: still shows this
+Juddiebands#3333ID#760342083134685204: 
+Juddiebands#3333ID#760342083134685204: now its asking me to speed up the cancellation lol
+Juddiebands#3333ID#760342083134685204: 
+Eletran#3333ID#391314756734156801: I think theyre stucj
+Eletran#3333ID#391314756734156801: So u need to fix manually with nonce number
+Eletran#3333ID#391314756734156801: Have u ever done that before?
+Juddiebands#3333ID#760342083134685204: nope never
+Eletran#3333ID#391314756734156801: Ill try and find a guide online for ya
+LuckySonic#2581ID#887189746844065793: https://metamask.zendesk.com/hc/en-us/articles/360015489251
+LuckySonic#2581ID#887189746844065793: scroll down to method 2 custom nonce
+Juddiebands#3333ID#760342083134685204: this is after cancelling or before?
+LuckySonic#2581ID#887189746844065793: this will cancel that tx
+LuckySonic#2581ID#887189746844065793: by frontrunning it
+Eletran#3333ID#391314756734156801: Oh ur fast
+Eletran#3333ID#391314756734156801: Important is that the gas of the new tx is higher than that of the previous
+LuckySonic#2581ID#887189746844065793: actually, gas is  dropping
+LuckySonic#2581ID#887189746844065793: you might be OK
+Juddiebands#3333ID#760342083134685204: im too dumb for this, am i going to lose gas on all these cancellations?
+Eletran#3333ID#391314756734156801: Yea just in case its stuck even as gas drops
+Juddiebands#3333ID#760342083134685204: wait it just confirmed
+Eletran#3333ID#391314756734156801: A little bit
+LuckySonic#2581ID#887189746844065793: ye
+LuckySonic#2581ID#887189746844065793: gas gods smiled upon you
+Eletran#3333ID#391314756734156801: Hahahaha
+LuckySonic#2581ID#887189746844065793: dropped it back to your initial bid
+Juddiebands#3333ID#760342083134685204: my brain cannot process what just happened hahaha
+Eletran#3333ID#391314756734156801: Vitalik did something
+LuckySonic#2581ID#887189746844065793: you bid this much for gas
+LuckySonic#2581ID#887189746844065793: so gas price needed to drop back down into that range for your tx to process
+Juddiebands#3333ID#760342083134685204: <:pepedent:985577728294158378>
+Juddiebands#3333ID#760342083134685204: me right now
+LuckySonic#2581ID#887189746844065793: and it just did for like 10 seconds
+Cam#1212ID#106540991493722112: <a:peepoclap:937255082175643678>
+LuckySonic#2581ID#887189746844065793: and now it's back to 30
+Eletran#3333ID#391314756734156801: Hahahahaha
+Eletran#3333ID#391314756734156801: Congrats!
+Juddiebands#3333ID#760342083134685204: <:pepepray:985577735663546399>
+Juddiebands#3333ID#760342083134685204: thank you all for your help
+LuckySonic#2581ID#887189746844065793: np
+bigstank#4085ID#445069262193950730: Lol happy you got your zeros
+Lynx Guardian#2982ID#970760846294802452: We are creating a transcript, we will provide you with a ticket number shortly

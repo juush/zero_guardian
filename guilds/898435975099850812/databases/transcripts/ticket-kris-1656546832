@@ -1,0 +1,27 @@
+Lynx Guardian#2982ID#970760846294802452: 
+kris#5399ID#509721737508683796: Hi team
+kris#5399ID#509721737508683796: I can’t mint wos, anyone can help
+Cam#1212ID#106540991493722112: Just paste your wallet in here and sonic will add it to the list for when we update it in a little bit
+kris#5399ID#509721737508683796: 0x960C668D14B2fE495180FA472cf8E10019789506
+kris#5399ID#509721737508683796: Thanks horny
+Cam#1212ID#106540991493722112: Need to wait for mints to slow down before we update <:pepehrt:936830378835058738>
+kris#5399ID#509721737508683796: You are very helpful
+kris#5399ID#509721737508683796: Thanks 🙏
+Cam#1212ID#106540991493722112: <@887189746844065793> just to make sure you see this <:pepehrt:936830378835058738>
+kris#5399ID#509721737508683796: So I will wait for awhile before I can mint it?
+Cam#1212ID#106540991493722112: Yep, we will make an announcement when its updated! Will also ping you in this ticket as well
+kris#5399ID#509721737508683796: Thanks Cam
+Cam#1212ID#106540991493722112: <@509721737508683796> you can mint now <a:peepoclap:937255082175643678>
+MXBØGAN#0647ID#806699449334104114: https://tenor.com/view/brooklyn-nine-nine-mint-rosa-diaz-want-a-mint-breath-mint-gif-21742641
+kris#5399ID#509721737508683796: Thanks
+kris#5399ID#509721737508683796: i do not know why my Metamask keep showing error when i try to mint. 😦
+Cam#1212ID#106540991493722112: Try to clear cache on browser
+LuckySonic#2581ID#887189746844065793: https://etherscan.io/address/0x960c668d14b2fe495180fa472cf8e10019789506
+LuckySonic#2581ID#887189746844065793: that's your wallet?
+LuckySonic#2581ID#887189746844065793: It looks like you have a number of pending transactions
+LuckySonic#2581ID#887189746844065793: and the merkle proof on them looks correct
+LuckySonic#2581ID#887189746844065793: so the first one will go through, if you speed up gas or gas goes back to 26, which is the amount bid
+LuckySonic#2581ID#887189746844065793: I would cancel the others, only the first one will go through because you minted 3 with that one and that is the max allowed
+LuckySonic#2581ID#887189746844065793: the others will fail because it will be more than the amount allowed after the first one processes
+LuckySonic#2581ID#887189746844065793: They are just taking a long time because gas spiked from when you submitted, so right now you are underbid for gas
+Lynx Guardian#2982ID#970760846294802452: We are creating a transcript, we will provide you with a ticket number shortly

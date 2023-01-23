@@ -1,0 +1,50 @@
+mariaco#8971ID#758770913201750057: What do I have to do
+LuckySonic#2581ID#887189746844065793: https://metamask.zendesk.com/hc/en-us/articles/360015489251-How-to-Speed-Up-or-Cancel-a-Pending-Transaction
+mariaco#8971ID#758770913201750057: I read the article you sent but it says to speed it up on the activity tab and it doesn’t show a pending transaction for me on the app
+LuckySonic#2581ID#887189746844065793: OK
+LuckySonic#2581ID#887189746844065793: scroll down to the Method 2 custom nonce part
+LuckySonic#2581ID#887189746844065793: it looks like you will have to cancel and then resubmit
+LuckySonic#2581ID#887189746844065793: your nonces are 5 and 6 for the two transactions
+mariaco#8971ID#758770913201750057: Ok I turned on the advanced setting for nonce
+mariaco#8971ID#758770913201750057: now I have to send a transaction with nonce 5 or 6?
+mariaco#8971ID#758770913201750057: also on the app, it doesnt let me turn on advanced gas controls which the instructions say to do
+mariaco#8971ID#758770913201750057: I don't know how to log onto metamask in desktop tho I downloaded it on Chrome and it doesn't pull up my profile, just directs me to the metamask website
+mariaco#8971ID#758770913201750057: which is why I'm using metamask on my phone currently
+LuckySonic#2581ID#887189746844065793: interesting, on desktop you would probably have to use import and use your private key to restore
+LuckySonic#2581ID#887189746844065793: I don't think advanced gas controls will be required for this to work
+LuckySonic#2581ID#887189746844065793: your gas will be higher than the old tx
+LuckySonic#2581ID#887189746844065793: because gas is higher now
+mariaco#8971ID#758770913201750057: Ok, I can see my profile on Chrome now, but it shows me less than it does on the app. It doesn't show any of my transactions
+mariaco#8971ID#758770913201750057: ok so what should I do to fix it? Sorry, I'm v new at this
+mariaco#8971ID#758770913201750057: this is my first time minting lol
+LuckySonic#2581ID#887189746844065793: I would follow the custom nonce instructions on the desktop
+LuckySonic#2581ID#887189746844065793: because that should have the advanced gas option
+LuckySonic#2581ID#887189746844065793: you will need to do it twice
+LuckySonic#2581ID#887189746844065793: once for nonce 5
+LuckySonic#2581ID#887189746844065793: and once for nonce 6
+LuckySonic#2581ID#887189746844065793: actually, hang on
+LuckySonic#2581ID#887189746844065793: gas is dropping
+LuckySonic#2581ID#887189746844065793: they might go through if it gets to 26
+LuckySonic#2581ID#887189746844065793: without you having to do anything
+mariaco#8971ID#758770913201750057: omg that would be great
+LuckySonic#2581ID#887189746844065793: <@758770913201750057> it went through
+LuckySonic#2581ID#887189746844065793: https://etherscan.io/tx/0xfae1398e974345b6373b2627b783dcae2311b0a820ed1a117a4be921dc1491f1
+mariaco#8971ID#758770913201750057: OMGG
+mariaco#8971ID#758770913201750057: Thank you!!!!
+mariaco#8971ID#758770913201750057: Where can I see my NFT??
+LuckySonic#2581ID#887189746844065793: https://opensea.io/0x20c3475d10a6723a460f6e4f6e0B3993cBB2541C
+mariaco#8971ID#758770913201750057: Thank you sm!!
+mariaco#8971ID#758770913201750057: I'm signing onto Open Sea with my metamask now, is it normal for open sea to ask you to sign a contract agreeing to open sea terms?
+LuckySonic#2581ID#887189746844065793: yes, it's gasless right?
+LuckySonic#2581ID#887189746844065793: that's read only. it doesn't allow them to do anything
+mariaco#8971ID#758770913201750057: yes
+mariaco#8971ID#758770913201750057: okay sounds good thank you
+LuckySonic#2581ID#887189746844065793: no problem
+LuckySonic#2581ID#887189746844065793: i'll refund the gas a little later
+LuckySonic#2581ID#887189746844065793: away from the computer with access to that account rn
+mariaco#8971ID#758770913201750057: okay sounds good, thanks for helping sm!!!
+CALV!N | LUCKY Ø#8888ID#879197800137633812: <:pepehrt:936830378835058738>
+mariaco#8971ID#758770913201750057: <:cute:953257619068424204>
+LuckySonic#2581ID#887189746844065793: gas refund tx: https://etherscan.io/tx/0xa08c4fa258124ba3f610eda8b7d997f8ec64724a4982b0564cd7d43dedf5e05f
+mariaco#8971ID#758770913201750057: Thank you!
+Lynx Guardian#2982ID#970760846294802452: We are creating a transcript, we will provide you with a ticket number shortly
