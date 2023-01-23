@@ -126,7 +126,7 @@ module.exports = {
                     )
                 let verificationMessage = new MessageEmbed()
                     .setTitle(`Verification for ${interaction.guild.name}`)
-                    .setDescription(`Welcome to ${interaction.guild.name}, let's get started! Please click the "I'm not a bot!" button below`)
+                    .setDescription(`Welcome to ${interaction.guild.name}\n\nLet's get started! Please click the "I'm not a bot!" button below`)
                 channel.send({
                     embeds: [verificationMessage],
                     components: [verificationButton],
