@@ -1,4 +1,6 @@
 const {MessageEmbed, MessageAttachment} = require("discord.js");
+const version = require("../package.json").version
+
 
 
 const helpMsg = () => {
@@ -74,25 +76,21 @@ const safetyMsg = (guildName) => {
 const updateMessage = () => {
     return new MessageEmbed()
         .setColor("#A966FF")
-        .setTitle(`⚠ TURN OFF DMs ⚠`)
-        .setDescription(`We care about you and your safety!`)
+        .setTitle(`What's new in version ${version}`)
         .addFields(
             {
-                name: "New in update 0.1.1-b!",
-                value: "Thank you so much for choose ZERØ Guardian! This is still a beta version so please be patient" +
-                    " with us as we work out the kinks! We are working hard to make this the best experience possible!" +
-                    " If you have any questions or concerns please reach out to us on our [Discord](https://discord.gg/JB2JYzDcPH)!"
+                name: "News",
+                value: "Will be added here!"
             },
             {
                 name: "What's new?",
-                value: ""
+                value: "This! As long as you have created a log channel you will now be able to see what's new in" +
+                    " the bot!"
             },
             {
                 name: "What's next?",
-                value: "We've added a new command to help you get started! You can now use `/help` to get a list of" +
-                    " commands and what they do! We've also added a new command to help you get started! You can now" +
-                    " use `/help` to get a list of commands and what they do! We are also working on a new feature" +
-                    " that will allow you to send us feedback! It will be available in the next major update! Stay tuned!"
+                value: "Over the next updates leading up to 0.2.0-b we will be focusing polishing and fine tuning" +
+                    " the bot. Stay tuned!"
             },
             {
                 name: "Feedback!",
@@ -101,7 +99,6 @@ const updateMessage = () => {
             }
 
         )
-        .setImage('https://cdn.discordapp.com/attachments/884674949623734342/973297882511843388/unknown.png?size=4096')
 }
 
 module.exports = {
