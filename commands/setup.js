@@ -75,13 +75,7 @@ module.exports = {
         .addSubcommand(subCommand =>
             subCommand
                 .setName("log-channel")
-                .setDescription("Select the channel you'd like to use for logging")
-                .addChannelOption(channel =>
-                    channel
-                        .setName("select-one")
-                        .setDescription("Start typing the name of the channel...")
-                        .setRequired(true)
-                )
+                .setDescription("This will create a channel for ZER0 to log events")
         )
         .addSubcommand(subCommand =>
             subCommand
@@ -236,15 +230,28 @@ module.exports = {
                 }
                 break;
             case interaction.options._subcommand === "log-channel":
-                let logChannel = interaction.options._hoistedOptions[0].value
-                serverDetails.storage.logChannel = logChannel
+                // let logChannel = interaction.options._hoistedOptions[0].value
+                let logChannel = await interaction.guild.channels.create(
+                    "ZERØ-LOGS",
+                    {
+                        type: "GUILD_TEXT",
+                        topic: "This channel is used for ZERØ's logging system",
+                        permissionOverwrites: [
+                            {
+                                id: interaction.guild.roles.everyone,
+                                deny: ["VIEW_CHANNEL"]
+                            }
+                        ]
+                    }
+                )
+                serverDetails.storage.logChannel = logChannel.id
                 serverDetails.set(serverDetails.storage);
                 await interaction.reply({
                     embeds: [
                         new MessageEmbed()
                             .setColor("#00FF00")
                             .setTitle("SUCCESS")
-                            .setDescription(`You've successfully added <#${logChannel}> as the log channel for .ZERØ`)
+                            .setDescription(`You've successfully added ${logChannel} as the log channel for ZERØ`)
                     ]
                 });
                 break;
