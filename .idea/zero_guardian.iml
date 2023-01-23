@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/guilds/232972073285320706/databases" />
+      <excludeFolder url="file://$MODULE_DIR$/guilds/925681635423289344/databases" />
+      <excludeFolder url="file://$MODULE_DIR$/guilds/927916169892073532/databases" />
+      <excludeFolder url="file://$MODULE_DIR$/guilds/932672458828435476/databases" />
+      <excludeFolder url="file://$MODULE_DIR$/guilds/936833635070406797/databases" />
+      <excludeFolder url="file://$MODULE_DIR$/guilds/938837022758535218/databases" />
+      <excludeFolder url="file://$MODULE_DIR$/guilds/943647859939622944/databases" />
+      <excludeFolder url="file://$MODULE_DIR$/guilds/953765293447065630/databases" />
+      <excludeFolder url="file://$MODULE_DIR$/guilds/957195611562713198/databases" />
+      <excludeFolder url="file://$MODULE_DIR$/guilds/958848369927786516/databases" />
+      <excludeFolder url="file://$MODULE_DIR$/guilds/964602412046372926/databases" />
+      <excludeFolder url="file://$MODULE_DIR$/guilds/970900001473564722/databases" />
+      <excludeFolder url="file://$MODULE_DIR$/guilds/1042270836733784155/databases" />
+      <excludeFolder url="file://$MODULE_DIR$/guilds/1066840346035769374/databases" />
+      <excludeFolder url="file://$MODULE_DIR$/private" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
