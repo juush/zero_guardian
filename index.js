@@ -220,3 +220,4 @@ client.on('guildCreate', async (guild) => {
 
 });
 
+client.login(token);
