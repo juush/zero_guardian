@@ -62,8 +62,8 @@ module.exports = {
                     ephemeral: true,
                 })
             case "ticket-create":
-                let ticketCategory = client.guilds.cache.get(interaction.guild.id).channels.cache.some(category => category.name === "Lynx Tickets")
-                if (!ticketCategory) await client.guilds.cache.get(interaction.guild.id).channels.create("Lynx" +
+                let ticketCategory = client.guilds.cache.get(interaction.guild.id).channels.cache.some(category => category.name === "ZERØ Tickets")
+                if (!ticketCategory) await client.guilds.cache.get(interaction.guild.id).channels.create("ZERØ" +
                     " Tickets", {
                     type: "GUILD_CATEGORY",
                     permissionOverwrites: [
@@ -90,7 +90,7 @@ module.exports = {
                 })
                     .then(async channel => {
                         let lynxTicketChannelId = client.guilds.cache.get(interaction.guild.id).channels.cache.find(category => {
-                            if (category.name === "Lynx Tickets") {
+                            if (category.name === "ZERØ Tickets") {
                                 return category.id
                             }
                         });

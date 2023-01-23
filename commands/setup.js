@@ -244,7 +244,7 @@ module.exports = {
                         new MessageEmbed()
                             .setColor("#00FF00")
                             .setTitle("SUCCESS")
-                            .setDescription(`You've successfully added <#${logChannel}> as the log channel for Lynx`)
+                            .setDescription(`You've successfully added <#${logChannel}> as the log channel for .ZERØ`)
                     ]
                 });
                 break;
@@ -257,7 +257,7 @@ module.exports = {
                         new MessageEmbed()
                             .setColor("#00FF00")
                             .setTitle("SUCCESS")
-                            .setDescription(`You've successfully added <#${ticketChannel}> as the ticket channel for Lynx`)
+                            .setDescription(`You've successfully added <#${ticketChannel}> as the ticket channel for ZERØ`)
                     ]
                 });
                 client.guilds.cache.get(interaction.guild.id).channels.cache.get(ticketChannel).send({

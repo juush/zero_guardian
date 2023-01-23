@@ -8,8 +8,8 @@ const helpMsg = () => {
         .setDescription(`I heard you have some questions...😸`)
         .addFields(
             {
-                name: "What is Lynx Guardian?",
-                value: "I'm one of the Discord bots currently being developed by the team at [Lynx" +
+                name: "What is ZERØ Guardian?",
+                value: "I'm one of the Discord bots currently being developed by the team at [ZERØ" +
                     " Tools](https://discord.gg/JB2JYzDcPH). My mission is to provide an easy and secure way to help" +
                     " projects verify their members! Have you met my siblings; Companion, Watcher, and Tracker?"
             },
@@ -20,8 +20,8 @@ const helpMsg = () => {
                     " usually found near the top of the Discord window! 😸"
             },
             {
-                name: "How can I get Lynx Guardian?",
-                value: "If you're interested in using or learning more about me or the Lynx" +
+                name: "How can I get ZERØ Guardian?",
+                value: "If you're interested in using or learning more about me or the ZERØ" +
                     " Companion, Guardian, Watcher, or Tracker, please visit our" +
                     " [Discord](https://discord.gg/JB2JYzDcPH)!\n You can also [click" +
                     " here](https://discord.com/api/oauth2/authorize?client_id=970760846294802452&permissions=1119241764082&scope=bot%20applications.commands) to invite me to your Discord!" +
