@@ -8,7 +8,8 @@ const botId = process.env.BOT_ID;
 const {Client, Intents, MessageEmbed, MessageAttachment, Formatters} = require('discord.js');
 const fs = require("fs");
 const JSONdb = require('simple-json-db');
-const luxon = require('luxon');
+const version = require("./package.json").version
+const previousVersion = require("./package.json").previousVersion
 const client = new Client({
     intents: [
         Intents.FLAGS.GUILDS,
@@ -27,7 +28,7 @@ const rest = new REST({version: '10'}).setToken(token);
 
 const discordModals = require("discord-modals");
 const {Modal, TextInputComponent, showModal} = require("discord-modals");
-const {helpMsg, safetyMsg} = require("./helpers/message-helpers");
+const {helpMsg, safetyMsg, updateMessage} = require("./helpers/message-helpers");
 discordModals(client);
 
 
@@ -70,6 +71,19 @@ client.on("ready", () => {
             );
             console.log('Reloading slash commands...');
             for (let i = 0; i < Guilds.length; i++) {
+                console.log(version)
+                console.log(previousVersion)
+
+                if (version !== previousVersion) {
+                    console.log("New version detected, updating commands")
+                    let logChannel = await client.guilds.cache.get(Guilds[i].id).channels.cache
+                        .find(channel => channel.name === "zerø-logs")
+
+                        await client.guilds.cache.get(Guilds[i].id).channels.cache.get(logChannel.id).send({
+                        embeds: [updateMessage()]
+                    })
+
+                }
                 let db = guildDB.get('Guilds')
                 guildDB.set('Guilds', [
                     ...db, {
